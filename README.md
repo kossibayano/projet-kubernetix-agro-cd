@@ -1,7 +1,5 @@
 # ☸ K8s Demo Notes — Application de Démonstration Kubernetes
 
-> **Auteur : KHLIFI HOUCEM / FORMATEUR DEVSECOPS & CLOUD**
-
 Application web complète conçue pour démontrer et manipuler les principaux objets Kubernetes dans un cas concret et pédagogique.
 
 ![Node.js](https://img.shields.io/badge/Node.js-20-green) ![Kubernetes](https://img.shields.io/badge/Kubernetes-Ready-blue) ![License](https://img.shields.io/badge/License-MIT-yellow)
@@ -507,7 +505,6 @@ kubectl get endpoints demo-app-service -n demo-app
 Le dossier `website/` contient un site web complet pour accompagner le TP :
 
 - **📝 Énoncé** (`index.html`) : 10 étapes détaillées avec indices et commandes de vérification
-- **🔒 Correction** (`correction.html`) : Tous les manifests + explications, protégé par mot de passe (`k8s@formateur`)
 
 ```bash
 # Ouvrir le site
@@ -518,4 +515,3 @@ open website/index.html
 
 ## 📝 Licence
 
-MIT — **KHLIFI HOUCEM / FORMATEUR DEVSECOPS & CLOUD**
